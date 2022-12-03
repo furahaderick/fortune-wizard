@@ -19,8 +19,7 @@ function getFortune() {
 
    fortunebox.innerHTML = load;
 
-   function change() {
-      fortunebox.innerHTML = fortune; 
-   }
-    setTimeout(change, 2000);
+    setTimeout(() => {
+      fortunebox.innerHTML = fortune
+    }, 2500);
 }
